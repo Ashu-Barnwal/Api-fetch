@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+header{
+  margin-top: 5px;
+  text-align: center;
+}
+.radio{
+  text-align: center;
+  margin-top: 10px;
+}
+.btn{
+  width: 30%;
+  height: 3rem;
+  font-size: large;
+  background-color: aqua;
+  box-shadow: 1px 3px 6px rgb(87, 78, 78);
+  border-radius: 10px;
+  border: 2px solid rgb(58, 43, 43);
+}
+.btn:focus{
+  background-color: crimson;
+}
+main{
+  padding: 5px;
+}
+table,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
