@@ -13,7 +13,6 @@ const Header = ({setCat, inputRef}) => {
                 className="btn"
                 onClick={ () => {
                     setCat('users');
-                    console.log('clicked users');
                     setInput1(inputRef);
                     setInput2(null);
                     setInput3(null);
@@ -27,7 +26,6 @@ const Header = ({setCat, inputRef}) => {
                     setInput1(null);
                     setInput2(inputRef);
                     setInput3(null);
-                    console.log('clicked posts');
                 }}
             >posts</button>
             <button
@@ -38,7 +36,6 @@ const Header = ({setCat, inputRef}) => {
                     setInput1(null);
                     setInput2(null);
                     setInput3(inputRef);
-                    console.log('clicked comments');
                 }}
             >comments</button> 
         </header>
